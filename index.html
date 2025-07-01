@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" 
+    /> 
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Soy Jose Chiluiza</title>
+  </head>
+
+  <body>
+    <!-- Pestaña social flotante -->
+    <!--Header-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="navL">
+          <img src="img/favicon.png" alt="favicon" class="navL-img" />
+          <!--Titulo de pagina-->
+          Examen Teorico
+        </a>
+        <nav>
+  <ul style="list-style: none; display: flex; gap: 1rem;">
+    <li>
+      <a href="https://facebook.com" target="_blank" style="color: white; text-decoration: none;">
+        <i class="fab fa-facebook"></i> 
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com" target="_blank" style="color: white; text-decoration: none;">
+        <i class="fab fa-instagram"></i> 
+      </a>
+    </li>
+  </ul>
+</nav>
+        <div class="navToggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--HOME-->
+<!--TABLA EDUCATIVA INTERACTIVA-->
+<section class="section" id="glosario">
+  <div class="container">
+    <h2 class="sectiontitle">Glosario de Desarrollo Web</h2>
+
+    <div style="text-align: right; margin-bottom: 1rem;">
+      <input
+  type="text"
+  id="buscador"
+  placeholder="Buscar término..."
+  style="padding: 0.5rem; border-radius: 0.3rem; border: none; width: 50%; display: block; margin: 0 auto;"
+>
+
+     <!-- <button onclick="exportarPDF()" class="button" style="margin-left: 10px;">Descargar PDF</button>-->
+    </div>
+
+    <div id="tablaPDF" class="table-container">
+      <table id="tablaT">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Término</th>
+            <th>Definición</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tbody>
+          <tr><td>1</td><td>HTML</td><td>Lenguaje de marcado para estructurar contenido web.</td></tr>
+          <tr><td>2</td><td>CSS</td><td>Lenguaje de estilos para definir la apariencia de un sitio.</td></tr>
+          <tr><td>3</td><td>JavaScript</td><td>Lenguaje de programación que añade interactividad.</td></tr>
+          <tr><td>4</td><td>PHP</td><td>Lenguaje del lado del servidor para crear contenido dinámico.</td></tr>
+          <tr><td>5</td><td>MySQL</td><td>Gestor de bases de datos relacionales muy utilizado.</td></tr>
+          <tr><td>6</td><td>DOM</td><td>Modelo de objetos del documento HTML.</td></tr>
+          <tr><td>7</td><td>API</td><td>Conjunto de funciones que permite comunicación entre sistemas.</td></tr>
+          <tr><td>8</td><td>AJAX</td><td>Técnica para actualizar contenido web sin recargar la página.</td></tr>
+          <tr><td>9</td><td>JSON</td><td>Formato de intercambio de datos ligero y legible.</td></tr>
+          <tr><td>10</td><td>XML</td><td>Lenguaje de marcado para estructurar información.</td></tr>
+          <tr><td>11</td><td>POST</td><td>Método HTTP para enviar datos al servidor.</td></tr>
+          <tr><td>12</td><td>GET</td><td>Método HTTP para obtener datos del servidor.</td></tr>
+          <tr><td>13</td><td>SESSION</td><td>Mecanismo para almacenar información temporal de usuarios.</td></tr>
+          <tr><td>14</td><td>COOKIE</td><td>Archivo pequeño para guardar datos del usuario en su navegador.</td></tr>
+          <tr><td>15</td><td>isset()</td><td>Función en PHP para verificar si una variable está definida.</td></tr>
+          <tr><td>16</td><td>echo</td><td>Instrucción en PHP para mostrar texto o variables.</td></tr>
+          <tr><td>17</td><td>var</td><td>Declaración de variable en JavaScript (obsoleta).</td></tr>
+          <tr><td>18</td><td>let</td><td>Declara variables con alcance de bloque en JS.</td></tr>
+          <tr><td>19</td><td>const</td><td>Declara constantes en JavaScript.</td></tr>
+          <tr><td>20</td><td>function</td><td>Define una función en JavaScript o PHP.</td></tr>
+          <tr><td>21</td><td>array</td><td>Estructura para almacenar múltiples valores.</td></tr>
+          <tr><td>22</td><td>if/else</td><td>Estructura de control para condiciones lógicas.</td></tr>
+          <tr><td>23</td><td>for</td><td>Bucle que repite código un número determinado de veces.</td></tr>
+          <tr><td>24</td><td>while</td><td>Bucle que se ejecuta mientras se cumpla una condición.</td></tr>
+          <tr><td>25</td><td>form</td><td>Elemento HTML para capturar información del usuario.</td></tr>
+          <tr><td>26</td><td>input</td><td>Elemento HTML para ingresar datos.</td></tr>
+          <tr><td>27</td><td>button</td><td>Botón que puede enviar formularios o ejecutar código.</td></tr>
+          <tr><td>28</td><td>select</td><td>Desplegable para seleccionar una opción.</td></tr>
+          <tr><td>29</td><td>label</td><td>Etiqueta asociada a un campo de formulario.</td></tr>
+          <tr><td>30</td><td>span</td><td>Contenedor en línea sin estilo por defecto.</td></tr>
+          <tr><td>31</td><td>div</td><td>Contenedor en bloque para agrupar elementos.</td></tr>
+          <tr><td>32</td><td>class</td><td>Atributo HTML para aplicar estilos CSS.</td></tr>
+          <tr><td>33</td><td>id</td><td>Identificador único para un elemento HTML.</td></tr>
+          <tr><td>34</td><td>href</td><td>Atributo que define un enlace en HTML.</td></tr>
+          <tr><td>35</td><td>src</td><td>Fuente de una imagen, video o script.</td></tr>
+          <tr><td>36</td><td>alt</td><td>Texto alternativo para imágenes.</td></tr>
+          <tr><td>37</td><td>meta</td><td>Define metadatos como charset o viewport.</td></tr>
+          <tr><td>38</td><td>SEO</td><td>Optimización para motores de búsqueda.</td></tr>
+          <tr><td>39</td><td>URL</td><td>Dirección de un recurso en Internet.</td></tr>
+          <tr><td>40</td><td>IP</td><td>Dirección numérica de un dispositivo en la red.</td></tr>
+          <tr><td>41</td><td>Dominio</td><td>Nombre amigable que apunta a una dirección IP.</td></tr>
+          <tr><td>42</td><td>DNS</td><td>Traduce dominios a direcciones IP.</td></tr>
+          <tr><td>43</td><td>Servidor</td><td>Computadora que aloja servicios o sitios web.</td></tr>
+          <tr><td>44</td><td>Host</td><td>Proveedor que almacena tu sitio en Internet.</td></tr>
+          <tr><td>45</td><td>SSL</td><td>Protocolo que cifra las comunicaciones en una web.</td></tr>
+          <tr><td>46</td><td>HTTPS</td><td>Versión segura del protocolo HTTP.</td></tr>
+          <tr><td>47</td><td>Frontend</td><td>Parte visible y con la que interactúa el usuario.</td></tr>
+          <tr><td>48</td><td>Backend</td><td>Parte lógica del sistema, en el servidor.</td></tr>
+          <tr><td>49</td><td>Framework</td><td>Conjunto de herramientas para facilitar el desarrollo.</td></tr>
+          <tr><td>50</td><td>CMS</td><td>Sistema de gestión de contenidos como WordPress.</td></tr>
+        </tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+    <!--FOOTER-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollupicon"></i>
+    </a>
+
+    <!--JAVASCRIPT-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script> <!--JAVASCRIPT-->
+
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+     <!--whatsapp-->
+    <a
+  href="https://wa.me/593999872827" 
+  class="whatsapp-float"
+  target="_blank"
+  title="Contáctanos por WhatsApp"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<script>
+  // Filtrar tabla
+  document.getElementById("buscador").addEventListener("keyup", function () {
+    const valor = this.value.toLowerCase();
+    const filas = document.querySelectorAll("#tablaT tbody tr");
+    filas.forEach(fila => {
+      const texto = fila.innerText.toLowerCase();
+      fila.style.display = texto.includes(valor) ? "" : "none";
+    });
+  });
+
+ 
+</script>
+<script>
+  document.getElementById('buscador').addEventListener('input', function () {
+    const filtro = this.value.toLowerCase();
+    const filas = document.querySelectorAll('.tabla-estilo tbody tr');
+
+    filas.forEach(fila => {
+      const textoFila = fila.textContent.toLowerCase();
+      fila.style.display = textoFila.includes(filtro) ? '' : 'none';
+    });
+  });
+</script>
+
+  </body>
+  <!-- Pestaña flotante independiente -->
+<div class="pestana-empaqplast">
+  <img src="img/st.jpg" alt="Jose">
+  <h2>Jose Chiluiza</h2>
+</div>
+
+</html>
